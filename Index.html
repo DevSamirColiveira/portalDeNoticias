@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Noticias DEV</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <script src="assets/src/components/CardNews.js" defer></script>
+    <link rel="shortcut icon" href="assets/img/darth-mauls.ico" type="image/x-icon">
+<body>
+    <header>
+        <h2>Portal de Notícias Gláctica</h2>
+    </header>
+    <div class="container">
+         <div class="card">
+            <div class="card_left">
+                <span>By Samir Oliveira</span>
+                <a href="https://pt.wikipedia.org/wiki/Darth_Vader" target="_blank">Darth Vader Contrata Devs</a>
+                <p>Darth Vader procura desenvolvedor que sabem trabalhar com compomentes.</p>
+            </div>
+            <div class="card_right">
+                <img src="assets/img/darthVader.png" alt="Darth Vader" srcset="">
+            </div>
+         </div>
+    </div>
+    <card-news
+        autor="Cavalcanti"
+        title="Yoda Contrata Hacker"
+        link-url="https://pt.wikipedia.org/wiki/Yoda"
+        photo="assets/img/Yoda.jpeg"
+        content="Yoda procura hacker que sabem lutar com Devs."
+        >
+    </card-news>
+    <card-news
+        autor="Oliveira"
+        title="Han Solo Contrata Pilotos"
+        link-url="https://pt.wikipedia.org/wiki/Han_Solo"
+        content="Han Solo procura pilotos, para ajuda a pilotar a sua nave Wondows Millennium Falcon na luta contra o Império Contra-Ataca."
+        >
+    </card-news>
+</body>
+</html>
